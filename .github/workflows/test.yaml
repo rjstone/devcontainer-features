@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
+#          - some_other_feature
           - hello
         baseImage:
           - debian:latest
@@ -34,7 +34,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
+#          - some_other_feature
           - hello
     steps:
       - uses: actions/checkout@v4
